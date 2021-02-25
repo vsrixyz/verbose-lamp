@@ -5,18 +5,21 @@
   <meta name="generator" content="Hugo 0.81.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/categories/" />
+<meta name="description" content="Columns #  Columns help organize shorter pieces of content horizontally for readability.
+{{&lt; columns &gt;}} &lt;!-- begin columns block --&gt; # Left Content Lorem markdownum insigne... &lt;---&gt; &lt;!-- magic separator, between columns --&gt; # Mid Content Lorem markdownum insigne... &lt;---&gt; &lt;!-- magic separator, between columns --&gt; # Right Content Lorem markdownum insigne... {{&lt; /columns &gt;}} Example #  Left Content Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Columns #  Columns help organize shorter pieces of content horizontally for readability.
+{{&lt; columns &gt;}} &lt;!-- begin columns block --&gt; # Left Content Lorem markdownum insigne... &lt;---&gt; &lt;!-- magic separator, between columns --&gt; # Mid Content Lorem markdownum insigne... &lt;---&gt; &lt;!-- magic separator, between columns --&gt; # Right Content Lorem markdownum insigne... {{&lt; /columns &gt;}} Example #  Left Content Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/shortcodes/columns/" /><meta property="article:section" content="docs" />
 
-<title>Categories | Welcome to paradise</title>
+
+
+<title>Columns | Welcome to paradise</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.2bc2364a4a4b31f0ec1debecf0a8f90a840821f143dfe1ac6a0f7cbcbdcf64ac.css" integrity="sha256-K8I2SkpLMfDsHevs8Kj5CoQIIfFD3&#43;Gsag98vL3PZKw=">
 <script defer src="/en.search.min.ff492a1263ba820894bd22452c9d0a200fa485857b8539ab136819b3830a5a3e.js" integrity="sha256-/0kqEmO6ggiUvSJFLJ0KIA&#43;khYV7hTmrE2gZs4MKWj4="></script>
-<link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="Welcome to paradise" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -210,7 +213,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/shortcodes/columns/" class="">Columns</a>
+    <a href="/docs/shortcodes/columns/" class=" active">Columns</a>
   
 
         </li>
@@ -370,7 +373,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Categories</strong>
+  <strong>Columns</strong>
 
   <label for="toc-control">
     
@@ -383,29 +386,13 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav>
+  
+<nav id="TableOfContents">
   <ul>
-  
-    
-    <li class="book-section-flat">
-      <strong>Categories</strong>
-      <ul>
-      
-      </ul>
-    </li>
-    
-  
-    
-    <li class="book-section-flat">
-      <strong>Tags</strong>
-      <ul>
-      
-      </ul>
-    </li>
-    
-  
+    <li><a href="#example">Example</a></li>
   </ul>
 </nav>
+
 
 
   </aside>
@@ -415,11 +402,56 @@ https://github.com/alex-shpak/hugo-book
 
       
       
+  <article class="markdown"><h1 id="columns">
+  Columns
+  <a class="anchor" href="#columns">#</a>
+</h1>
+<p>Columns help organize shorter pieces of content horizontally for readability.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">columns</span> &gt;}} <span style="color:#75715e">&lt;!-- begin columns block --&gt;</span>
+# Left Content
+Lorem markdownum insigne...
+
+&lt;<span style="color:#f92672">---</span>&gt; <span style="color:#75715e">&lt;!-- magic separator, between columns --&gt;</span>
+
+# Mid Content
+Lorem markdownum insigne...
+
+&lt;<span style="color:#f92672">---</span>&gt; <span style="color:#75715e">&lt;!-- magic separator, between columns --&gt;</span>
+
+# Right Content
+Lorem markdownum insigne...
+{{&lt; /<span style="color:#f92672">columns</span> &gt;}}
+</code></pre></div><h2 id="example">
+  Example
+  <a class="anchor" href="#example">#</a>
+</h2>
+<div class="book-columns flex flex-wrap">
   
-
+  <div class="flex-even markdown-inner">
+    <h2 id="left-content">Left Content</h2>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+  </div>
   
+  <div class="flex-even markdown-inner">
+    <h2 id="mid-content">Mid Content</h2>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter!
+  </div>
+  
+  <div class="flex-even markdown-inner">
+    <h2 id="right-content">Right Content</h2>
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.
+  </div>
+  
+</div>
 
-
+</article>
  
       
 
@@ -439,6 +471,10 @@ https://github.com/alex-shpak/hugo-book
 
       
   
+  <div class="book-comments">
+
+</div>
+  
  
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
@@ -448,29 +484,13 @@ https://github.com/alex-shpak/hugo-book
     <aside class="book-toc">
       <div class="book-toc-content">
         
-  <nav>
+  
+<nav id="TableOfContents">
   <ul>
-  
-    
-    <li class="book-section-flat">
-      <strong>Categories</strong>
-      <ul>
-      
-      </ul>
-    </li>
-    
-  
-    
-    <li class="book-section-flat">
-      <strong>Tags</strong>
-      <ul>
-      
-      </ul>
-    </li>
-    
-  
+    <li><a href="#example">Example</a></li>
   </ul>
 </nav>
+
 
  
       </div>
