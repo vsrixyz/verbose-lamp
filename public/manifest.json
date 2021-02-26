@@ -1,6 +1,6 @@
 {
-  "name": "Welcome to paradise",
-  "short_name": "Welcome to paradise",
+  "name": "Look & Point",
+  "short_name": "Look & Point",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

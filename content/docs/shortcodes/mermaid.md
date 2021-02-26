@@ -35,4 +35,18 @@ sequenceDiagram
     end
 {{< /mermaid >}}
 
+
+
 {{< /columns >}}
+
+{{< mermaid>}}
+journey
+            title Content Map
+            section Enter the flow
+              Make tea: 5: Me
+              Go upstairs: 3: Me
+              Do work: 1: Me, Cat
+            section Go home
+              Go downstairs: 5: Me
+              Sit down: 5: Me
+{{< /mermaid >}}

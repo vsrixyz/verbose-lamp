@@ -6,20 +6,20 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Mermaid Chart #  Mermaid is library for generating svg charts and diagrams from text.
-Example #  {{&lt; mermaid [class=&#34;text-center&#34;]&gt;}} sequenceDiagram Alice-&gt;&gt;Bob: Hello Bob, how are you? alt is sick Bob-&gt;&gt;Alice: Not so good :( else is well Bob-&gt;&gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&gt;&gt;Alice: Thanks for asking end {{&lt; /mermaid &gt;}}     ">
+Example #  {{&lt; mermaid [class=&#34;text-center&#34;]&gt;}} sequenceDiagram Alice-&gt;&gt;Bob: Hello Bob, how are you? alt is sick Bob-&gt;&gt;Alice: Not so good :( else is well Bob-&gt;&gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&gt;&gt;Alice: Thanks for asking end {{&lt; /mermaid &gt;}}    mermaid.initialize({ &#34;flowchart&#34;: { &#34;useMaxWidth&#34;:true }, &#34;theme&#34;: &#34;default&#34; } ) sequenceDiagram Alice-Bob: Hello Bob, how are you?">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
 <meta property="og:description" content="Mermaid Chart #  Mermaid is library for generating svg charts and diagrams from text.
-Example #  {{&lt; mermaid [class=&#34;text-center&#34;]&gt;}} sequenceDiagram Alice-&gt;&gt;Bob: Hello Bob, how are you? alt is sick Bob-&gt;&gt;Alice: Not so good :( else is well Bob-&gt;&gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&gt;&gt;Alice: Thanks for asking end {{&lt; /mermaid &gt;}}     " />
+Example #  {{&lt; mermaid [class=&#34;text-center&#34;]&gt;}} sequenceDiagram Alice-&gt;&gt;Bob: Hello Bob, how are you? alt is sick Bob-&gt;&gt;Alice: Not so good :( else is well Bob-&gt;&gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&gt;&gt;Alice: Thanks for asking end {{&lt; /mermaid &gt;}}    mermaid.initialize({ &#34;flowchart&#34;: { &#34;useMaxWidth&#34;:true }, &#34;theme&#34;: &#34;default&#34; } ) sequenceDiagram Alice-Bob: Hello Bob, how are you?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/shortcodes/mermaid/" /><meta property="article:section" content="docs" />
 
 
 
-<title>Mermaid | Welcome to paradise</title>
+<title>Mermaid | Look &amp; Point</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.2bc2364a4a4b31f0ec1debecf0a8f90a840821f143dfe1ac6a0f7cbcbdcf64ac.css" integrity="sha256-K8I2SkpLMfDsHevs8Kj5CoQIIfFD3&#43;Gsag98vL3PZKw=">
-<script defer src="/en.search.min.ff492a1263ba820894bd22452c9d0a200fa485857b8539ab136819b3830a5a3e.js" integrity="sha256-/0kqEmO6ggiUvSJFLJ0KIA&#43;khYV7hTmrE2gZs4MKWj4="></script>
+<script defer src="/en.search.min.aad661a7773060ebf6f39bf789177785c145e7587dbd9b926857fb2f7783794c.js" integrity="sha256-qtZhp3cwYOv285v3iRd3hcFF51h9vZuSaFf7L3eDeUw="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -37,7 +37,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a href="/"><span>Welcome to paradise</span>
+  <a href="/"><span>Look &amp; Point</span>
   </a>
 </h2>
 
@@ -239,6 +239,19 @@ https://github.com/alex-shpak/hugo-book
   
 
   
+    <a href="/docs/shortcodes/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
     <a href="/docs/shortcodes/hints/" class="">Hints</a>
   
 
@@ -266,6 +279,19 @@ https://github.com/alex-shpak/hugo-book
 
   
     <a href="/docs/shortcodes/mermaid/" class=" active">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/pdf/" class="">Pdf</a>
   
 
         </li>
@@ -349,6 +375,18 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
 
 
 
@@ -430,13 +468,42 @@ sequenceDiagram
   </div>
   
   <div class="flex-even markdown-inner">
-    <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+    <script src="/mermaid.min.js"></script>
+  <script>mermaid.initialize({
+  "flowchart": {
+    "useMaxWidth":true
+  },
+  "theme": "default"
+}
+)</script>
+<p class="mermaid">
+sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+        Bob->>Alice: Not so good :(
+    else is well
+        Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob->>Alice: Thanks for asking
+    end
   </div>
   
 </div>
+
+
+
+<p class="mermaid">
+journey
+            title Content Map
+            section Enter the flow
+              Make tea: 5: Me
+              Go upstairs: 3: Me
+              Do work: 1: Me, Cat
+            section Go home
+              Go downstairs: 5: Me
+              Sit down: 5: Me
+</p>
 
 </article>
  

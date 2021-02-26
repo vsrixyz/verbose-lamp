@@ -1,4 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Welcome to paradise"
-theme = "book"
+title = "Look & Point"
+theme = "hugo-book"
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true

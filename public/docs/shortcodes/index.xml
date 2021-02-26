@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to paradise</title>
+    <title>Look &amp; Point</title>
     <link>/docs/shortcodes/</link>
-    <description>Recent content on Welcome to paradise</description>
+    <description>Recent content on Look &amp; Point</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/docs/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -38,6 +38,16 @@ Example #  {{&amp;lt; details &amp;#34;Title&amp;#34; [open] &amp;gt;}} ## Markd
     
     <item>
       <title></title>
+      <link>/docs/shortcodes/expand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/shortcodes/expand/</guid>
+      <description>Expand #  Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
+Example #  Default #  {{&amp;lt; expand &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}}   Expand ↕  Markdown content Lorem markdownum insigne&amp;hellip;    With Custom Label #  {{&amp;lt; expand &amp;#34;Custom Label&amp;#34; &amp;#34;...&amp;#34; &amp;gt;}} ## Markdown content Lorem markdownum insigne.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/docs/shortcodes/hints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -55,7 +65,7 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
       
       <guid>/docs/shortcodes/katex/</guid>
       <description>KaTeX #  KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
-Example #  {{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp;gt;}} f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&amp;lt; /katex &amp;gt;}}     Display Mode Example #  Here is some inline example:  \(\pi(x)\)  , rendered in the same line. And below is display example, having display: block  \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]  Text continues here.</description>
+Example #  {{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp;gt;}} f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&amp;lt; /katex &amp;gt;}}     \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]    Display Mode Example #  Here is some inline example:  \(\pi(x)\)  , rendered in the same line. And below is display example, having display: block  \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]  Text continues here.</description>
     </item>
     
     <item>
@@ -65,7 +75,16 @@ Example #  {{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp
       
       <guid>/docs/shortcodes/mermaid/</guid>
       <description>Mermaid Chart #  Mermaid is library for generating svg charts and diagrams from text.
-Example #  {{&amp;lt; mermaid [class=&amp;#34;text-center&amp;#34;]&amp;gt;}} sequenceDiagram Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you? alt is sick Bob-&amp;gt;&amp;gt;Alice: Not so good :( else is well Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&amp;gt;&amp;gt;Alice: Thanks for asking end {{&amp;lt; /mermaid &amp;gt;}}     </description>
+Example #  {{&amp;lt; mermaid [class=&amp;#34;text-center&amp;#34;]&amp;gt;}} sequenceDiagram Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you? alt is sick Bob-&amp;gt;&amp;gt;Alice: Not so good :( else is well Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&amp;gt;&amp;gt;Alice: Thanks for asking end {{&amp;lt; /mermaid &amp;gt;}}    mermaid.initialize({ &#34;flowchart&#34;: { &#34;useMaxWidth&#34;:true }, &#34;theme&#34;: &#34;default&#34; } ) sequenceDiagram Alice-Bob: Hello Bob, how are you?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/shortcodes/pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/shortcodes/pdf/</guid>
+      <description>Pdf embed #    #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;\/&#34; + &#34;.\/fuck.pdf&#34;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.</description>
     </item>
     
     <item>
