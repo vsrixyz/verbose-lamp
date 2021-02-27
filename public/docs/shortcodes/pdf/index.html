@@ -5,9 +5,9 @@
   <meta name="generator" content="Hugo 0.81.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Pdf embed #    #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &nbsp; &nbsp; Page:  /     window.onload = function() { var url = &#34;\/&#34; &#43; &#39;.\/fuck.pdf&#39;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;\/&#34; &#43; &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.">
+<meta name="description" content="Pdf embed #    #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &nbsp; &nbsp; Page:  /     window.onload = function() { var url = &#34;\/&#34; &#43; &#39;.\/fuck.pdf&#39;; console.log(&#34;did this work?&#34;) var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;\/&#34; &#43; &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="Pdf embed #    #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &nbsp; &nbsp; Page:  /     window.onload = function() { var url = &#34;\/&#34; &#43; &#39;.\/fuck.pdf&#39;; var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;\/&#34; &#43; &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document." />
+<meta property="og:description" content="Pdf embed #    #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &nbsp; &nbsp; Page:  /     window.onload = function() { var url = &#34;\/&#34; &#43; &#39;.\/fuck.pdf&#39;; console.log(&#34;did this work?&#34;) var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;]; pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;\/&#34; &#43; &#39;/js/pdf-js/build/pdf.worker.js&#39;; var pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, scale = 3, canvas = document." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/shortcodes/pdf/" /><meta property="article:section" content="docs" />
 
@@ -17,7 +17,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.2bc2364a4a4b31f0ec1debecf0a8f90a840821f143dfe1ac6a0f7cbcbdcf64ac.css" integrity="sha256-K8I2SkpLMfDsHevs8Kj5CoQIIfFD3&#43;Gsag98vL3PZKw=">
-<script defer src="/en.search.min.cc8a52391120cac5a12ff5b896179557310fcaa97ae1d81782ece86c056c5bc4.js" integrity="sha256-zIpSOREgysWhL/W4lheVVzEPyql64dgXguzobAVsW8Q="></script>
+<script defer src="/en.search.min.210f3b38a3306dba6898de3c3ffcd6ed908a9b000024daa8e27814c687f0ba3f.js" integrity="sha256-IQ87OKMwbbpomN48P/zW7ZCKmwAAJNqo4ngUxofwuj8="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -459,7 +459,7 @@ https://github.com/alex-shpak/hugo-book
     <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
 <div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
+    <canvas id="the-canvgitas"></canvas>
 </div>
 
 <script type="text/javascript">
@@ -468,6 +468,7 @@ window.onload = function() {
 
 
 var url = "\/" + '.\/fuck.pdf';
+console.log("did this work?")
 
 
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
