@@ -19,7 +19,7 @@
     <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
 <div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
+    <canvas id="the-canvgitas"></canvas>
 </div>
 
 <script type="text/javascript">
@@ -28,6 +28,7 @@ window.onload = function() {
 // header on that server.
 
 var url = "{{.Site.BaseURL}}" + '{{ .Get "url" }}';
+console.log("did this work?")
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
