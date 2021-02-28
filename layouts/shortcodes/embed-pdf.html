@@ -28,6 +28,7 @@ window.onload = function() {
 // header on that server.
 
 var url = "{{.Site.BaseURL}}" + "{{ .Get "url" }}";
+console.log({{.Site.BaseURL}})
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
