@@ -6,10 +6,12 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Buttons #  Buttons are styled links that can lead to local page or external link.
-Example #  {{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}}  Get Home  Contribute  ">
+Example #  {{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}}  Get Home  Contribute  Think about it #  {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+See Also  {{ range . }} {{ .Title }} {{ end }}  {{ end }}">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
 <meta property="og:description" content="Buttons #  Buttons are styled links that can lead to local page or external link.
-Example #  {{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}}  Get Home  Contribute  " />
+Example #  {{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}}  Get Home  Contribute  Think about it #  {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+See Also  {{ range . }} {{ .Title }} {{ end }}  {{ end }}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/shortcodes/buttons/" /><meta property="article:section" content="docs" />
 
@@ -19,7 +21,7 @@ Example #  {{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.2bc2364a4a4b31f0ec1debecf0a8f90a840821f143dfe1ac6a0f7cbcbdcf64ac.css" integrity="sha256-K8I2SkpLMfDsHevs8Kj5CoQIIfFD3&#43;Gsag98vL3PZKw=">
-<script defer src="/en.search.min.328447f4400f7e100753dd0c2755c126ad23d8fdd5e7dc48dfcc0f82e5139a1f.js" integrity="sha256-MoRH9EAPfhAHU90MJ1XBJq0j2P3V59xI38wPguUTmh8="></script>
+<script defer src="/en.search.min.0cc0051db6504e89cfa53aab2be10f324e531f5f026ae59e0fe4c31990818a15.js" integrity="sha256-DMAFHbZQTonPpTqrK&#43;EPMk5TH18CauWeD&#43;TDGZCBihU="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -472,7 +474,19 @@ https://github.com/alex-shpak/hugo-book
   Contribute
 </a>
 </p>
-</article>
+<h1 id="think-about-it">
+  Think about it
+  <a class="anchor" href="#think-about-it">#</a>
+</h1>
+<p>{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}</p>
+<h3>See Also</h3>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}</article>
  
       
 
