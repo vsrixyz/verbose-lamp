@@ -2,96 +2,96 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/docs/example/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/</loc>
   </url><url>
-    <loc>/docs/example/table-of-contents/with-toc/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/table-of-contents/with-toc/</loc>
   </url><url>
-    <loc>/docs/example/table-of-contents/without-toc/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/table-of-contents/without-toc/</loc>
   </url><url>
-    <loc>/posts/creating-a-new-theme/</loc>
+    <loc>http://verbose-lamp.netlify.app/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/migrate-from-jekyll/</loc>
+    <loc>http://verbose-lamp.netlify.app/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/example/table-of-contents/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/table-of-contents/</loc>
   </url><url>
-    <loc>/docs/example/collapsed/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/collapsed/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>http://verbose-lamp.netlify.app/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>http://verbose-lamp.netlify.app/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/goisforlovers/</loc>
+    <loc>http://verbose-lamp.netlify.app/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://verbose-lamp.netlify.app/categories/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/development/</loc>
+    <loc>http://verbose-lamp.netlify.app/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/development/</loc>
+    <loc>http://verbose-lamp.netlify.app/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/hugoisforlovers/</loc>
+    <loc>http://verbose-lamp.netlify.app/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/go/</loc>
+    <loc>http://verbose-lamp.netlify.app/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/golang/</loc>
+    <loc>http://verbose-lamp.netlify.app/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/golang/</loc>
+    <loc>http://verbose-lamp.netlify.app/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
+    <loc>http://verbose-lamp.netlify.app/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://verbose-lamp.netlify.app/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/templates/</loc>
+    <loc>http://verbose-lamp.netlify.app/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/themes/</loc>
+    <loc>http://verbose-lamp.netlify.app/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/example/collapsed/3rd-level/4th-level/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/collapsed/3rd-level/4th-level/</loc>
   </url><url>
-    <loc>/docs/example/collapsed/3rd-level/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/collapsed/3rd-level/</loc>
   </url><url>
-    <loc>/docs/example/hidden/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/example/hidden/</loc>
   </url><url>
-    <loc>/docs/shortcodes/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/</loc>
   </url><url>
-    <loc>/docs/shortcodes/buttons/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/buttons/</loc>
   </url><url>
-    <loc>/docs/shortcodes/columns/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/columns/</loc>
   </url><url>
-    <loc>/docs/shortcodes/details/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/details/</loc>
   </url><url>
-    <loc>/docs/shortcodes/expand/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/expand/</loc>
   </url><url>
-    <loc>/docs/shortcodes/hints/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/hints/</loc>
   </url><url>
-    <loc>/docs/shortcodes/katex/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/katex/</loc>
   </url><url>
-    <loc>/docs/shortcodes/mermaid/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/mermaid/</loc>
   </url><url>
-    <loc>/docs/shortcodes/pdf/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/pdf/</loc>
   </url><url>
-    <loc>/docs/shortcodes/section/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/section/</loc>
   </url><url>
-    <loc>/docs/shortcodes/section/page1/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/section/page1/</loc>
   </url><url>
-    <loc>/docs/shortcodes/section/page2/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/section/page2/</loc>
   </url><url>
-    <loc>/docs/shortcodes/tabs/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/shortcodes/tabs/</loc>
   </url><url>
-    <loc>/docs/</loc>
+    <loc>http://verbose-lamp.netlify.app/docs/</loc>
   </url>
 </urlset>

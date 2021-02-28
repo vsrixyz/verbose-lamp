@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Look &amp; Point</title>
-    <link>/docs/</link>
+    <link>http://verbose-lamp.netlify.app/docs/</link>
     <description>Recent content in Docs on Look &amp; Point</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://verbose-lamp.netlify.app/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
