@@ -1,3 +1,3 @@
 # Pdf embed
 
-{{< embed-pdf url="./../fuck.pdf" >}}
+{{< embed-pdf url="./fuck.pdf" >}}
