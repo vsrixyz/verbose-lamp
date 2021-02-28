@@ -1,4 +1,4 @@
-baseURL = "http://verbose-lamp.netlify.app/"
+baseURL = ""
 languageCode = "en-us"
 title = "Look & Point"
 theme = "hugo-book"
