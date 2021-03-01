@@ -1,6 +1,6 @@
 # Another PDF page
 
-{{< embed-pdf url="./insights.pdf" >}}
+{{< embed-pdf url="/insights.pdf" >}}
 
 Intesting
 
