@@ -1,9 +1,21 @@
 baseURL = "https://verbose-lamp.netlify.app"
 languageCode = "en-us"
 title = "Look & Point"
-theme = "hugo-book"
+theme = "zettels"
 
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
   unsafe = true
+
+# Zettels stuff
+uglyURLS=  true
+publishDir = "public"
+pygmentsUseClasses=true
+googleAnalytics = "Your google analytics number"
+
+# assetDir = "themes/zettels/assets"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+[params]
+    favicon = "favicon.ico"
